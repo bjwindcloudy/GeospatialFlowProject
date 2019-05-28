@@ -126,3 +126,4 @@ FuzzyWeights{1,i} = sort(normWeights);
 end
 end
                             
+[X] = lsqnonneg(aMatrix,bColumn)
